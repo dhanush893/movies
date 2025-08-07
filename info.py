@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/dhanu_movie_add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002672128101').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Duanu:dhanu@dhanu.pmyxo.mongodb.net/?retryWrites=true&w=majority&appName=Dhanu")
+DATABASE_URI = environ.get('DATABASE_URI', "https://t.me/+n2BaRwRvjQY1MTJl")
 DATABASE_NAME = environ.get('DATABASE_NAME', "dhanu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
